@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Add Projects</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./css/site.css" />
+</head>
+
+<body onload="getprojects()">
+    <div class="wrapper">
+        <form id="projects">
+            <div class=" formwrapper">
+                <div class="col-2">
+                    <label>Project Name</label>
+                    <input type="text" id="projectname" />
+                </div>
+                <div>
+                    <div class="col-1">
+                        <label>Start Date</label>
+                        <input type="datetime" id="startdate" />
+                    </div>
+                    <div class="col-1">
+                        <label>End Date</label>
+                        <input type="datetime" id="enddate" />
+                    </div>
+                </div>
+                <div class="col-2">
+                    <label>Allocation</label>
+                    <input type="text" id="allocation" />
+                </div>
+                <div class="footer">
+                    <a>Clear</a>
+                    <button class="button" type="submit">Add</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="projectlist">
+
+    </div>
+    <script src="./js/gsquery.js"></script>
+    <script src="./js/project.js"></script>
+    <script src="./js/projectservice.js"></script>
+    <script src="./js/setting.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
