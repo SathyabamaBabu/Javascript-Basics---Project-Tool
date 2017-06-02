@@ -1,0 +1,121 @@
+
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    padding-top:10%;
+    font-size:18px;
+    
+}
+.wrapper
+{
+margin:auto;
+width:50%;
+background-color:aquamarine;
+}
+
+[class*="col-"] {
+    float: left;
+    padding:20px;
+}
+.col-2
+{
+    width:100%; 
+}
+
+.col-1
+{
+    width:50%;       
+}
+
+label
+{
+    font-size:18px;
+    color:darkblue;
+    display:block;    
+}
+.formwrapper::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.formwrapper div
+{
+    padding-bottom:20px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.formwrapper div label
+{
+    padding-bottom:10px;
+}
+
+input[type="text"],input[type="datetime"]
+{
+display:block;
+border:none;
+width:100%;
+height:30px;
+}
+
+.button
+{
+    background-color:darkblue;
+    color:white;
+    width:100px;
+    height:40px;
+    border:none;
+    text-transform: uppercase;
+}
+
+.button:hover
+{
+   background-color:pink; 
+   color:darkblue;
+   border:1px solid;
+   cursor:hand;
+}
+
+.footer a:hover
+{
+   color:orangered;
+   cursor:hand;
+}
+.footer a
+{
+    text-decoration:none;
+    color:darkgreen;
+    padding-right:5px;
+    vertical-align: bottom;
+}
+
+.footer
+{
+    float:right;
+    padding:20px;
+}
+
+.result
+{
+    font-size:14px;
+margin:10px auto auto auto;
+width:50%;
+background-color:lightskyblue;
+color:green;
+padding:5px 0px 5px 10px;
+}
+.smallbutton
+{
+    background-color:orange;
+    color:white;
+    width:60px;
+    height:30px;
+    border:none;
+    text-transform: uppercase;
+    font-size:12px;
+    margin-right:10px;
+    
+}
