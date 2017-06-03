@@ -1,4 +1,4 @@
-$('projects').element.addEventListener('submit', saveproject);
+$('#projects').submit(saveproject);
 
 function saveproject(e) {
 
@@ -8,34 +8,39 @@ function saveproject(e) {
 
     e.preventDefault();
 
-    $('projects').element.reset();
+    $('#projects').trigger("reset");
 }
 
 
 
 function getprojects() {
 
-    var projectlist = $('projectlist').element;
+    var projectlist = $('#projectlist');
 
-    projectlist.innerHTML = '';
+    //projectlist.empty();
+    var innerhtml = '';
 
     projectservice.getProjects(function(projects) {
         for (i = 0; i < projects.length; i++) {
-            projectlist.innerHTML += '<div class="result">' +
+            innerhtml = innerhtml + '<div class="result">' +
                 '<h2>' + projects[i].name + '</h2>' +
                 '<label>' + projects[i].status + '</label>' +
                 '<p><span>StartDate: ' + projects[i].startdate + '</span><span>    EndDate: ' + projects[i].enddate + '</span></p>' +
                 '<p>Allocation: ' + projects[i].allocation + '</p>' +
                 '<button class="smallbutton" value="Close" onclick="updatestatus(\'' + projects[i].name + '\')">CLOSE</button>' +
                 '<button class="smallbutton" value="Delete" onclick="deleteproject(\'' + projects[i].name + '\')">DELETE</button>' + '</div>';
+
         }
+        projectlist.html(innerhtml);
+
+
     });
 
 
 }
 
 function updatestatus(name) {
-    var projectlist = $('projectlist').element;
+    var projectlist = $('projectlist');
     projectservice.getProjects(function(projects) {
         for (i = 0; i < projects.length; i++) {
             if (projects[i].name == name) {
@@ -49,7 +54,7 @@ function updatestatus(name) {
 }
 
 function deleteproject(name) {
-    var projectlist = $('projectlist').element;
+    var projectlist = $('projectlist');
     projectservice.getProjects(function(projects) {
         for (i = 0; i < projects.length; i++) {
             if (projects[i].name == name) {

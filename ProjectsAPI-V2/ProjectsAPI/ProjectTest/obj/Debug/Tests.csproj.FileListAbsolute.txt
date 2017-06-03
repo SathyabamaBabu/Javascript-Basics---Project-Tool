@@ -1,0 +1,15 @@
+F:\ProjectsAPI\ProjectTest\bin\Debug\ProjectTest.dll.config
+F:\ProjectsAPI\ProjectTest\bin\Debug\ProjectTest.dll
+F:\ProjectsAPI\ProjectTest\bin\Debug\ProjectTest.pdb
+F:\ProjectsAPI\ProjectTest\bin\Debug\EntityFramework.dll
+F:\ProjectsAPI\ProjectTest\bin\Debug\EntityFramework.SqlServer.dll
+F:\ProjectsAPI\ProjectTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\ProjectsAPI\ProjectTest\bin\Debug\ProjectDomain.dll
+F:\ProjectsAPI\ProjectTest\bin\Debug\ProjectsContext.dll
+F:\ProjectsAPI\ProjectTest\bin\Debug\ProjectDomain.pdb
+F:\ProjectsAPI\ProjectTest\bin\Debug\ProjectsContext.pdb
+F:\ProjectsAPI\ProjectTest\bin\Debug\EntityFramework.xml
+F:\ProjectsAPI\ProjectTest\bin\Debug\EntityFramework.SqlServer.xml
+F:\ProjectsAPI\ProjectTest\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+F:\ProjectsAPI\ProjectTest\obj\Debug\ProjectTest.dll
+F:\ProjectsAPI\ProjectTest\obj\Debug\ProjectTest.pdb

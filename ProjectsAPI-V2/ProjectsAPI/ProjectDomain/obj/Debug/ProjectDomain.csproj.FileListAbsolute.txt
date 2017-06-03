@@ -1,0 +1,4 @@
+F:\ProjectsAPI\ProjectDomain\bin\Debug\ProjectDomain.dll
+F:\ProjectsAPI\ProjectDomain\bin\Debug\ProjectDomain.pdb
+F:\ProjectsAPI\ProjectDomain\obj\Debug\ProjectDomain.dll
+F:\ProjectsAPI\ProjectDomain\obj\Debug\ProjectDomain.pdb

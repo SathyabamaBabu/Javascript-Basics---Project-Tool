@@ -1,0 +1,5 @@
+F:\ProjectsAPI\ProjectDomain\bin\Debug\Domain.dll
+F:\ProjectsAPI\ProjectDomain\bin\Debug\Domain.pdb
+F:\ProjectsAPI\ProjectDomain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+F:\ProjectsAPI\ProjectDomain\obj\Debug\Domain.dll
+F:\ProjectsAPI\ProjectDomain\obj\Debug\Domain.pdb

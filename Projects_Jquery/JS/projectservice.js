@@ -13,7 +13,17 @@ var projectservice = (function() {
 
          request.send(JSON.stringify(project));*/
 
-        $().post(settings.apiUrl + "api/projects/add", onsuccess, JSON.stringify(project));
+        var request = {
+            url: settings.apiUrl + "api/projects/add",
+            type: "POST",
+            success: onsuccess,
+            data: JSON.stringify(project),
+            contentType: "application/json"
+        };
+
+        $.ajax(request);
+
+        //$.post(settings.apiUrl + "api/projects/add", JSON.stringify(project), onsuccess);
     }
 
 
@@ -22,9 +32,9 @@ var projectservice = (function() {
         /*var request = new XMLHttpRequest();
         request.open("GET", settings.apiUrl + "api/projects/all", true);*/
 
-        $().get(settings.apiUrl + "api/projects/all", function(request) {
+        $.get(settings.apiUrl + "api/projects/all", function(response) {
 
-            var projects = JSON.parse(request.responseText);
+            var projects = response;
 
             var projectstoReturn = [];
 
@@ -44,14 +54,28 @@ var projectservice = (function() {
 
     function updateProject(project, onsuccess) {
 
-        $().update(settings.apiUrl + "api/projects/update", onsuccess, JSON.stringify(project));
+        var request = {
+            url: settings.apiUrl + "api/projects/update",
+            type: "PUT",
+            success: onsuccess,
+            data: JSON.stringify(project),
+            contentType: "application/json"
+        };
+
+        $.ajax(request);
+
 
     }
 
 
     function deleteProject(name, onsuccess) {
 
-        $().delete(settings.apiUrl + "api/projects/delete/" + name, onsuccess);
+        var request = {
+            url: settings.apiUrl + "api/projects/delete/" + name,
+            type: "DELETE",
+            success: onsuccess
+        };
+        $.ajax(request);
 
     }
 

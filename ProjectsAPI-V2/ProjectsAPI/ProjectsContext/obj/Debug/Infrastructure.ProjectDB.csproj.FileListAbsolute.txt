@@ -1,0 +1,12 @@
+F:\ProjectsAPI\ProjectsContext\bin\Debug\Infrastructure.ProjectDB.dll.config
+F:\ProjectsAPI\ProjectsContext\bin\Debug\Infrastructure.ProjectDB.dll
+F:\ProjectsAPI\ProjectsContext\bin\Debug\Infrastructure.ProjectDB.pdb
+F:\ProjectsAPI\ProjectsContext\bin\Debug\Domain.dll
+F:\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.dll
+F:\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.SqlServer.dll
+F:\ProjectsAPI\ProjectsContext\bin\Debug\Domain.pdb
+F:\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.xml
+F:\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.SqlServer.xml
+F:\ProjectsAPI\ProjectsContext\obj\Debug\Infrastructure.ProjectDB.csprojResolveAssemblyReference.cache
+F:\ProjectsAPI\ProjectsContext\obj\Debug\Infrastructure.ProjectDB.dll
+F:\ProjectsAPI\ProjectsContext\obj\Debug\Infrastructure.ProjectDB.pdb

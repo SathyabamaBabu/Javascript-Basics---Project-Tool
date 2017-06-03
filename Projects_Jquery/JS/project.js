@@ -4,16 +4,13 @@ function Project() {
     this.startdate = "";
     this.enddate = "";
     this.status = "Open";
-
-
-
 }
 
 Project.prototype.addProject = function() {
-    this.name = $('projectname').element.value;
-    this.startdate = $('startdate').element.value;
-    this.enddate = $('enddate').element.value;
-    this.allocation = $('allocation').element.value;
+    this.name = $('#projectname').val();
+    this.startdate = $('#startdate').val();
+    this.enddate = $('#enddate').val();
+    this.allocation = $('#allocation').val();
 }
 
 Project.prototype.changeStatus = function(status) {

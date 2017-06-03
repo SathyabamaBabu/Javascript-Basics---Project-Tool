@@ -1,0 +1,5 @@
+F:\ProjectsAPI\ProjectApi.Contracts\bin\Debug\ProjectApi.Contracts.dll
+F:\ProjectsAPI\ProjectApi.Contracts\bin\Debug\ProjectApi.Contracts.pdb
+F:\ProjectsAPI\ProjectApi.Contracts\obj\Debug\ProjectApi.Contracts.csprojResolveAssemblyReference.cache
+F:\ProjectsAPI\ProjectApi.Contracts\obj\Debug\ProjectApi.Contracts.dll
+F:\ProjectsAPI\ProjectApi.Contracts\obj\Debug\ProjectApi.Contracts.pdb

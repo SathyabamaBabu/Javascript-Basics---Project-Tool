@@ -1,0 +1,12 @@
+F:\ProjectsAPI\ProjectsContext\bin\Debug\ProjectsContext.dll.config
+F:\ProjectsAPI\ProjectsContext\bin\Debug\ProjectsContext.dll
+F:\ProjectsAPI\ProjectsContext\bin\Debug\ProjectsContext.pdb
+F:\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.dll
+F:\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.SqlServer.dll
+F:\ProjectsAPI\ProjectsContext\bin\Debug\ProjectDomain.dll
+F:\ProjectsAPI\ProjectsContext\bin\Debug\ProjectDomain.pdb
+F:\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.xml
+F:\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.SqlServer.xml
+F:\ProjectsAPI\ProjectsContext\obj\Debug\ProjectsContext.csprojResolveAssemblyReference.cache
+F:\ProjectsAPI\ProjectsContext\obj\Debug\ProjectsContext.dll
+F:\ProjectsAPI\ProjectsContext\obj\Debug\ProjectsContext.pdb
