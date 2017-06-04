@@ -3,3 +3,8 @@ F:\ProjectsAPI\ProjectDomain\bin\Debug\Domain.pdb
 F:\ProjectsAPI\ProjectDomain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 F:\ProjectsAPI\ProjectDomain\obj\Debug\Domain.dll
 F:\ProjectsAPI\ProjectDomain\obj\Debug\Domain.pdb
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectDomain\bin\Debug\Domain.dll
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectDomain\bin\Debug\Domain.pdb
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectDomain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectDomain\obj\Debug\Domain.dll
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectDomain\obj\Debug\Domain.pdb

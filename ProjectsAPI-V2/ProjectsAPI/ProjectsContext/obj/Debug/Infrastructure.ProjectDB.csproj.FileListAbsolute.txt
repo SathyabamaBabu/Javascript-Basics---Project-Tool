@@ -10,3 +10,15 @@ F:\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.SqlServer.xml
 F:\ProjectsAPI\ProjectsContext\obj\Debug\Infrastructure.ProjectDB.csprojResolveAssemblyReference.cache
 F:\ProjectsAPI\ProjectsContext\obj\Debug\Infrastructure.ProjectDB.dll
 F:\ProjectsAPI\ProjectsContext\obj\Debug\Infrastructure.ProjectDB.pdb
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectsContext\bin\Debug\Infrastructure.ProjectDB.dll.config
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectsContext\bin\Debug\Infrastructure.ProjectDB.dll
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectsContext\bin\Debug\Infrastructure.ProjectDB.pdb
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectsContext\bin\Debug\Domain.dll
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.dll
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectsContext\bin\Debug\Domain.pdb
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.xml
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectsContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectsContext\obj\Debug\Infrastructure.ProjectDB.csprojResolveAssemblyReference.cache
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectsContext\obj\Debug\Infrastructure.ProjectDB.dll
+C:\Users\sbabu\Source\Repos\Javascript-Basics---Project-Tool\ProjectsAPI-V2\ProjectsAPI\ProjectsContext\obj\Debug\Infrastructure.ProjectDB.pdb
