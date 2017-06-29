@@ -1,6 +1,8 @@
-using System.Web.Mvc;
+using Domain.Contracts;
+using Infrastructure.ProjectDB;
 using Microsoft.Practices.Unity;
-using Unity.Mvc5;
+using System.Web.Http;
+using Unity.WebApi;
 
 namespace ProjectsAPI
 {
@@ -13,9 +15,10 @@ namespace ProjectsAPI
             // register all your components with the container here
             // it is NOT necessary to register your controllers
             
-            // e.g. container.RegisterType<ITestService, TestService>();
+
+            container.RegisterType<IProjectRepository, ProjectRepository>();
             
-            DependencyResolver.SetResolver(new UnityDependencyResolver(container));
+            GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }
     }
 }
