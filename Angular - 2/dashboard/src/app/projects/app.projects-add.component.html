@@ -1,0 +1,28 @@
+<div class="wrapper">
+    <form id="projects">
+        <div class=" formwrapper">
+            <div class="col-2">
+                <label>Project Name</label>
+                <input type="text" name="name" [(ngModel)]="project.name" />
+            </div>
+            <div>
+                <div class="col-1">
+                    <label>Start Date</label>
+                    <input type="datetime" name="startDate" [(ngModel)]="project.startDate" />
+                </div>
+                <div class="col-1">
+                    <label>End Date</label>
+                    <input type="datetime" name="endDate" [(ngModel)]="project.endDate" />
+                </div>
+            </div>
+            <div class="col-2">
+                <label>Allocation</label>
+                <input type="text" name="allocation" [(ngModel)]="project.allocation" />
+            </div>
+            <div class="footer">
+                <a>Clear</a>
+                <button class="button" type="submit" (click)="addProjects()">Add</button>
+            </div>
+        </div>
+    </form>
+</div>

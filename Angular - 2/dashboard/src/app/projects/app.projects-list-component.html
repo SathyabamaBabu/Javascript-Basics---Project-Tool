@@ -1,0 +1,28 @@
+<h1>Projects</h1>
+
+<div class="table-responsive">
+    <div class="col-md-2" style="float: right">
+        <a [routerLink]="['./addprojects']"> <button class="btn btn-transparent-panel">ADD</button></a>
+    </div>
+    <table class="table table-hover table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Allocation</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Status</th>
+                <tr>
+        </thead>
+        <tr *ngFor="let project of projects">
+            <td>{{project.name}}</td>
+            <td>{{project.allocation}}</td>
+            <td>{{project.startDate}}</td>
+            <td>{{project.endDate}}</td>
+            <td>{{project.status}}</td>
+            <td><button class="btn btn-transparent-panel" (click)="updateStatus(project)">CLOSE</button></td>
+            <td><button class="btn btn-transparent-panel" (click)="deleteProject(project)">DELETE</button></td>
+        </tr>
+
+    </table>
+</div>
